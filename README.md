@@ -28,7 +28,7 @@ Android开发兼容性问题汇总
         android:pathData="......"/>
 </vector>
 ```
-`android:fillColor="@android:color/white"`这种设置颜色是5.0以下无效
+`android:fillColor="@android:color/white"`这种设置颜色时5.0以下无效
 
 #### 解决
 方案一：升级 support 版本到26以上，检查自己的 support 版本是不是25或更低
